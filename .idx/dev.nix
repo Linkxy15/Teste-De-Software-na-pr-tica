@@ -1,0 +1,1 @@
+{ pkgs, ... }: {\n  channel = "stable-23.11";\n  packages = [ pkgs.nodejs_20 pkgs.eslint ];\n  idx.extensions = [\n    "dbaeumer.vscode-eslint"      # Mostra o erro\n    "usernamehw.errorlens"        # Escreve o erro na linha (Essencial p/ Celular)\n    "esbenp.prettier-vscode"      # Arruma o código\n  ];\n}
